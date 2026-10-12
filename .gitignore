@@ -1,0 +1,26 @@
+# virtual environment
+venv/
+env/
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# database and uploads
+career.db
+*.db
+uploads/
+
+# editor
+.vscode/
+.idea/
+
+# os
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# local secrets
+.env

@@ -1,0 +1,116 @@
+{
+  "skills": {
+    "programming": ["python", "java", "c++", "c#", "javascript", "typescript", "php", "ruby", "rust", "kotlin", "swift", "scala", "powerbuilder", "pl/sql", "t-sql"],
+    "short_skills": ["c", "r", "go", "vba", "sas"],
+    "web": ["html", "css", "bootstrap", "tailwind", "react", "angular", "vue", "jquery", "node.js", "express", "django", "flask", "fastapi", "spring boot", "asp.net", "laravel", "rest api", "graphql", "web forms", "mvc", "flask-login", "jinja", "chart.js", "ajax", "json"],
+    "database": ["sql", "mysql", "postgresql", "oracle", "sql server", "sqlite", "mongodb", "redis", "cassandra", "dynamodb", "firebase", "elasticsearch", "database design", "query optimization", "stored procedures", "nosql"],
+    "data": ["pandas", "numpy", "matplotlib", "seaborn", "scikit-learn", "tensorflow", "pytorch", "keras", "machine learning", "deep learning", "nlp", "computer vision", "data analysis", "data visualization", "statistics", "power bi", "tableau", "excel", "etl", "data warehousing", "openpyxl"],
+    "ai": ["rag", "retrieval-augmented generation", "langchain", "chromadb", "vector database", "embeddings", "llm", "large language models", "ocr", "tesseract", "prompt engineering", "hugging face", "ollama", "openai api", "semantic search"],
+    "cloud_devops": ["aws", "azure", "gcp", "docker", "kubernetes", "jenkins", "git", "github", "gitlab", "ci/cd", "terraform", "ansible", "linux", "unix", "nginx", "apache", "iis"],
+    "mobile": ["android", "ios", "react native", "flutter", "xamarin"],
+    "testing": ["unit testing", "selenium", "pytest", "junit", "postman", "jmeter", "manual testing", "automation testing"],
+    "core": ["data structures", "algorithms", "oop", "object oriented programming", "dsa", "problem solving", "system design", "microservices", "api integration", "authentication", "smtp"],
+    "tools": ["jira", "confluence", "visual studio", "vs code", "eclipse", "intellij", "agile", "scrum", "kanban"],
+    "soft": ["communication", "teamwork", "team collaboration", "leadership", "time management", "presentation", "documentation", "stakeholder management", "critical thinking", "creativity"]
+  },
+
+  "roles": {
+    "Python Developer": {
+      "must_have": ["python", "sql", "git", "rest api", "data structures"],
+      "good_to_have": ["django", "flask", "docker", "aws", "unit testing", "linux"]
+    },
+    "Full Stack Developer": {
+      "must_have": ["javascript", "html", "css", "sql", "rest api", "git"],
+      "good_to_have": ["react", "node.js", "mongodb", "docker", "aws", "typescript"]
+    },
+    "AI / ML Engineer": {
+      "must_have": ["python", "machine learning", "nlp", "rest api", "git"],
+      "good_to_have": ["langchain", "rag", "vector database", "deep learning", "docker", "llm"]
+    },
+    "Data Analyst": {
+      "must_have": ["sql", "excel", "python", "data analysis", "data visualization"],
+      "good_to_have": ["power bi", "tableau", "pandas", "statistics", "etl"]
+    },
+    "Data Scientist": {
+      "must_have": ["python", "machine learning", "statistics", "pandas", "sql"],
+      "good_to_have": ["deep learning", "nlp", "tensorflow", "scikit-learn", "data visualization"]
+    },
+    "Backend Developer": {
+      "must_have": ["sql", "rest api", "git", "data structures"],
+      "good_to_have": ["python", "java", "docker", "redis", "microservices", "aws"]
+    },
+    "Java Developer": {
+      "must_have": ["java", "sql", "spring boot", "git", "rest api"],
+      "good_to_have": ["microservices", "docker", "junit", "maven", "aws"]
+    },
+    ".NET Developer": {
+      "must_have": ["c#", "asp.net", "sql server", "git"],
+      "good_to_have": ["mvc", "web api", "azure", "entity framework", "javascript"]
+    },
+    "Oracle PL/SQL Developer": {
+      "must_have": ["pl/sql", "oracle", "sql", "stored procedures"],
+      "good_to_have": ["query optimization", "etl", "unix", "data warehousing"]
+    },
+    "DevOps Engineer": {
+      "must_have": ["linux", "docker", "ci/cd", "git", "aws"],
+      "good_to_have": ["kubernetes", "jenkins", "terraform", "ansible", "python"]
+    },
+    "Business Analyst": {
+      "must_have": ["sql", "excel", "documentation", "communication", "stakeholder management"],
+      "good_to_have": ["power bi", "jira", "agile", "data analysis", "presentation"]
+    }
+  },
+
+  "courses": {
+    "python": [{"title": "Python for Everybody", "source": "Coursera", "url": "https://www.coursera.org/specializations/python"}],
+    "sql": [{"title": "SQL Tutorial Full Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"}],
+    "git": [{"title": "Git and GitHub for Beginners", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=RGOj5yH7evk"}],
+    "docker": [{"title": "Docker Tutorial for Beginners", "source": "YouTube - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=3c-iBn73dDE"}],
+    "aws": [{"title": "AWS Cloud Practitioner Essentials", "source": "AWS Skill Builder", "url": "https://explore.skillbuilder.aws/"}],
+    "react": [{"title": "React Course for Beginners", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=bMknfKXIFA8"}],
+    "django": [{"title": "Django for Everybody", "source": "Coursera", "url": "https://www.coursera.org/specializations/django"}],
+    "flask": [{"title": "Flask Tutorial", "source": "YouTube - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"}],
+    "machine learning": [{"title": "Machine Learning Specialization", "source": "Coursera - Andrew Ng", "url": "https://www.coursera.org/specializations/machine-learning-introduction"}],
+    "deep learning": [{"title": "Deep Learning Specialization", "source": "Coursera - Andrew Ng", "url": "https://www.coursera.org/specializations/deep-learning"}],
+    "nlp": [{"title": "NLP Course", "source": "Hugging Face", "url": "https://huggingface.co/learn/nlp-course"}],
+    "langchain": [{"title": "LangChain for LLM Application Development", "source": "DeepLearning.AI", "url": "https://www.deeplearning.ai/short-courses/"}],
+    "rag": [{"title": "Building RAG Applications", "source": "DeepLearning.AI", "url": "https://www.deeplearning.ai/short-courses/"}],
+    "vector database": [{"title": "Vector Databases Explained", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=klTvEwg3oJ4"}],
+    "llm": [{"title": "Large Language Models Course", "source": "Hugging Face", "url": "https://huggingface.co/learn/llm-course"}],
+    "pandas": [{"title": "Pandas Tutorial", "source": "YouTube - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"}],
+    "numpy": [{"title": "NumPy Tutorial", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI"}],
+    "power bi": [{"title": "Power BI Full Course", "source": "YouTube - Simplilearn", "url": "https://www.youtube.com/watch?v=3u7MQz1EyPY"}],
+    "tableau": [{"title": "Tableau Full Course", "source": "YouTube - Simplilearn", "url": "https://www.youtube.com/watch?v=aHaOIvR00So"}],
+    "rest api": [{"title": "REST API Tutorial", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"}],
+    "linux": [{"title": "Linux Command Line Basics", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"}],
+    "unix": [{"title": "Unix Shell Scripting", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=v-F3YLd6oMw"}],
+    "data structures": [{"title": "Data Structures and Algorithms", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=8hly31xKli0"}],
+    "algorithms": [{"title": "Algorithms Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=0IAPZzGSbME"}],
+    "java": [{"title": "Java Programming Masterclass", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=A74TOX803D0"}],
+    "c#": [{"title": "C# Tutorial for Beginners", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=GhQdlIFylQ8"}],
+    "javascript": [{"title": "JavaScript Full Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"}],
+    "typescript": [{"title": "TypeScript Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=30LWjhZzg50"}],
+    "node.js": [{"title": "Node.js Full Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=Oe421EPjeBE"}],
+    "mongodb": [{"title": "MongoDB Full Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=c2M-rlkkT5o"}],
+    "spring boot": [{"title": "Spring Boot Tutorial", "source": "YouTube - Amigoscode", "url": "https://www.youtube.com/watch?v=9SGDpanrc8U"}],
+    "asp.net": [{"title": "ASP.NET Core Tutorial", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=C5cnZ-gZy2I"}],
+    "excel": [{"title": "Excel for Beginners", "source": "YouTube - Kevin Stratvert", "url": "https://www.youtube.com/watch?v=LgXzzu68j7M"}],
+    "statistics": [{"title": "Statistics for Data Science", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=xxpc-HPKN28"}],
+    "data analysis": [{"title": "Data Analysis with Python", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8"}],
+    "data visualization": [{"title": "Data Visualization Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=0P7QnIQDBJY"}],
+    "etl": [{"title": "ETL Pipeline Tutorial", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU"}],
+    "ci/cd": [{"title": "CI/CD Pipeline Tutorial", "source": "YouTube - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"}],
+    "kubernetes": [{"title": "Kubernetes Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=d6WC5n9G_sM"}],
+    "unit testing": [{"title": "Python Unit Testing", "source": "YouTube - Corey Schafer", "url": "https://www.youtube.com/watch?v=6tNS--WetLI"}],
+    "microservices": [{"title": "Microservices Explained", "source": "YouTube - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=rv4LlmLmVWk"}],
+    "stored procedures": [{"title": "SQL Stored Procedures", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=yGwN0zlqkG8"}],
+    "pl/sql": [{"title": "Oracle PL/SQL Tutorial", "source": "YouTube - Simplilearn", "url": "https://www.youtube.com/watch?v=yRfXXrrw_Tk"}],
+    "oracle": [{"title": "Oracle SQL Full Course", "source": "YouTube - freeCodeCamp", "url": "https://www.youtube.com/watch?v=OEwaR6nbA6A"}],
+    "communication": [{"title": "Communication Skills", "source": "Coursera", "url": "https://www.coursera.org/learn/wharton-communication-skills"}],
+    "documentation": [{"title": "Technical Writing", "source": "Google Technical Writing", "url": "https://developers.google.com/tech-writing"}],
+    "agile": [{"title": "Agile and Scrum Basics", "source": "YouTube - Simplilearn", "url": "https://www.youtube.com/watch?v=9TycLR0TqFA"}],
+    "jira": [{"title": "Jira Tutorial for Beginners", "source": "YouTube - Atlassian", "url": "https://www.youtube.com/watch?v=nHuhojfjecc"}],
+    "presentation": [{"title": "Presentation Skills", "source": "Coursera", "url": "https://www.coursera.org/learn/presentation-skills"}],
+    "stakeholder management": [{"title": "Stakeholder Management", "source": "Coursera", "url": "https://www.coursera.org/learn/project-management-foundations"}]
+  }
+}
